@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors())
 
 app.get("/", async (req, res) => {
-    res.send("Página inicial - Celke");
+    res.send("Bem vindo - API EXPRESS");
 });
 
 app.get("/teste", async (req, res) => {
